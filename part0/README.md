@@ -1,9 +1,9 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
 
     Note right of browser: User writes text into the input field
-
     Note right of browser: User clicks the Save button
 
     browser->>browser: JavaScript captures form submit event
@@ -11,11 +11,10 @@ sequenceDiagram
 
     Note right of browser: JS creates a new note object\n{content: "...", date: ...}
 
-    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note\nwith JSON note data
+    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
-    server-->>browser: HTTP 201 Created (or redirect response)
+    server-->>browser: HTTP 201 Created
     deactivate server
 
-    Note right of browser: JS updates the local notes list
-
-    browser->>browser: JS re-renders the notes list on the page
+    Note right of browser: JS updates local notes list
+    browser->>browser: JS re-renders notes list
