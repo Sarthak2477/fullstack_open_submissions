@@ -20,7 +20,7 @@ sequenceDiagram
 
     Note right of browser: JS updates local notes list
     browser->>browser: JS re-renders notes list
-
+```
 
 ## Diagram 0.5
 
@@ -52,7 +52,7 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: JS renders notes dynamically into the page
-
+```
 
 ## Diagram 0.6
 
@@ -76,4 +76,4 @@ sequenceDiagram
 
     Note right of browser: SPA updates notes list in memory
     browser->>browser: SPA re-renders notes list on page
-
+```
