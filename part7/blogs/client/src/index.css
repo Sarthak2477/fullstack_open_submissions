@@ -1,0 +1,54 @@
+.error {
+    color: red;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: green;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.blog {
+    background-color: white;
+    filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.17));
+    margin: 10px;
+    padding-right: 5px;
+    padding-left:  5px;
+
+}
+
+.blog-title {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blog-content {
+    margin: 10px;
+    padding: 5px;
+    line-height: 0.2;
+    background-color: darkgrey;
+}
+
+.background {
+    background-color: azure;
+}
+
+.nav-bar {
+    
+    background-color: cadetblue;
+    position: relative;
+}
+
+
+.nav-bar-logout {
+    position: absolute;
+    margin: 0;
+    right: 10px;
+    top: 33%;
+}
